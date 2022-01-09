@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/employees/me",
+      "handler": "employees.me",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/employees/count",
       "handler": "employees.count",
       "config": {
